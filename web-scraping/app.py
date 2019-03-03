@@ -8,7 +8,7 @@ app.secret_key = 'abcde'
 cache = SimpleCache()
 
 
-url = 'https://raw.githubusercontent.com/maradwan/apps/master/fortune_of_the_day.json'
+url = 'https://raw.githubusercontent.com/maradwan/apps/master/web-scraping/fortune_of_the_day.json'
 
 def get_my_item():
     rv = cache.get('msg')
